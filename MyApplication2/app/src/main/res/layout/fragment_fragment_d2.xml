@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="josh.myapplication.FragmentB">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView
+        android:id="@+id/fragBText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="" />-->
+
+
+    <ListView
+        android:id="@+id/custom_listview_exampleD2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="160dip"
+        android:paddingBottom="16dip"
+        android:clipToPadding="false"/>
+
+     <!--
+    <LinearLayout
+        android:id="@+id/side_index"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:background="#c3c3c3"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+    </LinearLayout>-->
+
+
+
+</FrameLayout>

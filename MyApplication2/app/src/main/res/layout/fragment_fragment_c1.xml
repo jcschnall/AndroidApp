@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="josh.myapplication.FragmentC">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/custom_listview_exampleC1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="160dip"
+        android:paddingBottom="16dip"
+        android:clipToPadding="false"/>
+
+</FrameLayout>
